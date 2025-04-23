@@ -1,0 +1,34 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy>=2.0
+alembic
+psycopg[binary]
+pydantic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+redis
+celery
+structlog
+prometheus-client
+httpx
+tenacity
+typing-extensions
+ruff
+mypy
+pytest
+pytest-asyncio
+pytest-cov
+anyio
+email-validator
+# Security dependencies for HIPAA compliance
+cryptography>=41.0.0
+python-magic
+bleach>=6.0.0
+
+# Production infrastructure dependencies
+boto3>=1.34.0
+psutil>=5.9.0
+gunicorn>=21.2.0
+supervisor>=4.2.5
