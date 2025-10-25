@@ -31,7 +31,7 @@ A production-grade FastAPI application for healthcare appointment scheduling wit
 ### **Docker (Recommended)**
 ```bash
 # Clone and setup
-git clone https://github.com/your-org/healthcare-scheduling-api.git
+git clone https://github.com/ryanwtech/healthcare-scheduling-api.git
 cd healthcare-scheduling-api
 cp .env.example .env
 
